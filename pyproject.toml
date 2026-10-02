@@ -2,6 +2,7 @@
 name = "hiband-w12-osc"
 version = "0.1.0"
 description = "Send HiBand W12 heart rate to VRChat over OSC"
+readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "bleak>=0.22",

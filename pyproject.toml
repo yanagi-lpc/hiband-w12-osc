@@ -1,0 +1,22 @@
+[project]
+name = "hiband-w12-osc"
+version = "0.1.0"
+description = "Send HiBand W12 heart rate to VRChat over OSC"
+requires-python = ">=3.12"
+dependencies = [
+    "bleak>=0.22",
+    "python-osc>=1.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+hiband-w12-osc = "hiband_w12_osc.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

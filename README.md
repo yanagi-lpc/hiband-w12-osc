@@ -4,6 +4,8 @@ HiBand W12 の心拍を、VRChat の OSC パラメータへ送る。
 
 PC の Bluetooth をオンにする。スマホの専用アプリがウォッチに繋がっているときは切る。VRChat は Options の OSC をオンにする。
 
+`run.bat` をダブルクリックすると、初回は仮想環境を作ってから起動する。止めたあとも窓は残る。
+
 ```text
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
